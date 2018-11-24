@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842629212196A70E00A6C8E3 /* diceRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842629202196A70E00A6C8E3 /* diceRandom.swift */; };
 		84347DB421966CFA007DAF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347DB321966CFA007DAF90 /* AppDelegate.swift */; };
 		84347DB621966CFA007DAF90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347DB521966CFA007DAF90 /* ViewController.swift */; };
 		84347DB921966CFA007DAF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84347DB721966CFA007DAF90 /* Main.storyboard */; };
 		84347DBB21966CFC007DAF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84347DBA21966CFC007DAF90 /* Assets.xcassets */; };
 		84347DBE21966CFC007DAF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84347DBC21966CFC007DAF90 /* LaunchScreen.storyboard */; };
+		843C1508219FE022003922D3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C1505219FE021003922D3 /* ProgressHUD.m */; };
+		843C1509219FE022003922D3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 843C1506219FE022003922D3 /* ProgressHUD.bundle */; };
+		8469545F2196F6F800543551 /* QuestionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469545E2196F6F800543551 /* QuestionB.swift */; };
+		846954612196F71A00543551 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846954602196F71A00543551 /* Question.swift */; };
+		846954642196F96200543551 /* QuesstionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846954632196F96200543551 /* QuesstionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842629202196A70E00A6C8E3 /* diceRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceRandom.swift; sourceTree = "<group>"; };
 		84347DB021966CFA007DAF90 /* miniProject01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniProject01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84347DB321966CFA007DAF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84347DB521966CFA007DAF90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,13 @@
 		84347DBA21966CFC007DAF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84347DBD21966CFC007DAF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84347DBF21966CFC007DAF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C1504219FE020003922D3 /* miniProject01-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "miniProject01-Bridging-Header.h"; sourceTree = "<group>"; };
+		843C1505219FE021003922D3 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		843C1506219FE022003922D3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		843C1507219FE022003922D3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		8469545E2196F6F800543551 /* QuestionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionB.swift; sourceTree = "<group>"; };
+		846954602196F71A00543551 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		846954632196F96200543551 /* QuesstionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuesstionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,30 @@
 		84347DB221966CFA007DAF90 /* miniProject01 */ = {
 			isa = PBXGroup;
 			children = (
+				846954622196F72C00543551 /* model */,
 				84347DB321966CFA007DAF90 /* AppDelegate.swift */,
 				84347DB521966CFA007DAF90 /* ViewController.swift */,
+				842629202196A70E00A6C8E3 /* diceRandom.swift */,
+				846954632196F96200543551 /* QuesstionController.swift */,
 				84347DB721966CFA007DAF90 /* Main.storyboard */,
 				84347DBA21966CFC007DAF90 /* Assets.xcassets */,
 				84347DBC21966CFC007DAF90 /* LaunchScreen.storyboard */,
 				84347DBF21966CFC007DAF90 /* Info.plist */,
+				843C1506219FE022003922D3 /* ProgressHUD.bundle */,
+				843C1507219FE022003922D3 /* ProgressHUD.h */,
+				843C1505219FE021003922D3 /* ProgressHUD.m */,
+				843C1504219FE020003922D3 /* miniProject01-Bridging-Header.h */,
 			);
 			path = miniProject01;
+			sourceTree = "<group>";
+		};
+		846954622196F72C00543551 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				846954602196F71A00543551 /* Question.swift */,
+				8469545E2196F6F800543551 /* QuestionB.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +126,7 @@
 				TargetAttributes = {
 					84347DAF21966CFA007DAF90 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -122,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C1509219FE022003922D3 /* ProgressHUD.bundle in Resources */,
 				84347DBE21966CFC007DAF90 /* LaunchScreen.storyboard in Resources */,
 				84347DBB21966CFC007DAF90 /* Assets.xcassets in Resources */,
 				84347DB921966CFA007DAF90 /* Main.storyboard in Resources */,
@@ -135,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846954612196F71A00543551 /* Question.swift in Sources */,
+				8469545F2196F6F800543551 /* QuestionB.swift in Sources */,
 				84347DB621966CFA007DAF90 /* ViewController.swift in Sources */,
+				843C1508219FE022003922D3 /* ProgressHUD.m in Sources */,
 				84347DB421966CFA007DAF90 /* AppDelegate.swift in Sources */,
+				842629212196A70E00A6C8E3 /* diceRandom.swift in Sources */,
+				846954642196F96200543551 /* QuesstionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9G6MVX8UR;
 				INFOPLIST_FILE = miniProject01/Info.plist;
@@ -291,6 +329,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.kamonchanok.miniProject01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "miniProject01/miniProject01-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9G6MVX8UR;
 				INFOPLIST_FILE = miniProject01/Info.plist;
@@ -309,6 +350,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.kamonchanok.miniProject01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "miniProject01/miniProject01-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
